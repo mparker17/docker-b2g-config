@@ -26,3 +26,8 @@ ENV HOME /home/build
 
 VOLUME ["/B2G"]
 WORKDIR /B2G
+
+# Run ./config.sh by default, with "emulator" as the default argument. This can
+# be overridden at `docker run`-time.
+ENTRYPOINT [ "./config.sh" ]
+CMD [ "emulator" ]
