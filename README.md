@@ -1,4 +1,4 @@
-# b2g-config
+# docker-b2g-config
 
 Use Docker to run the Boot2Gecko config script using Python 2.x.
 
@@ -8,8 +8,8 @@ Note that this container is only intended to run the `./config.sh` script - you 
 
 1. Clone this repository:
 
-        git clone --recursive https://github.com/mparker17/b2g-config.git
-        cd b2g-config/
+        git clone --recursive https://github.com/mparker17/docker-b2g-config.git
+        cd docker-b2g-config/
 
 2. Build an image:
 
